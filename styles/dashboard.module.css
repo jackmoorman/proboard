@@ -1,0 +1,19 @@
+.container {
+  height: calc(100vh - 70px);
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.nav {
+  background-color: rgb(15, 15, 15);
+  width: 300px;
+  height: 100%;
+  box-shadow: 0 0 5px 0 gray;
+}
+
+.content {
+  border: 1px solid white;
+  height: 100%;
+  width: calc(100% - 300px);
+}
